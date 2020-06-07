@@ -23,12 +23,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YotamHassin/node-helper.git"
+    "url": "git+https://github.com/YotamHassin/enquirer-helper.git"
   },
   "bugs": {
-    "url": "https://github.com/YotamHassin/node-helper/issues"
+    "url": "https://github.com/YotamHassin/enquirer-helper/issues"
   },
-  "homepage": "https://github.com/YotamHassin/node-helper#readme",
+  "homepage": "https://github.com/YotamHassin/enquirer-helper#readme",
   "dependencies": {
     "enquirer": "^2.3.5"
   }
