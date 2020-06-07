@@ -11,7 +11,7 @@ npm install enquirer-helper --save
 ## Usage
 
 ```javascript
-const enquirerHelper = require('./index');
+const enquirerHelper = require('enquirer-helper');
 
 function myLog(name, ans, desc) {
 	var descStr = desc ? ('- ' + desc) : '';
