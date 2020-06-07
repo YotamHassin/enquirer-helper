@@ -1,17 +1,11 @@
+﻿
+// tests.js - UI (autoComplete, select, confirm, input)
 
-# enquirer-helper
-Helper For Enquirer, async-await, Stylish CLI prompts that are user-friendly, intuitive and easy to create.
+// Stylish CLI prompts that are user-friendly, intuitive and easy to create.
+// https://www.npmjs.com/package/enquirer
 
-## Installation 
-```sh
-cd <my_location>
-npm install enquirer-helper --save
-```
-
-## Usage
-
-```javascript
 const enquirerHelper = require('./index');
+//import { prompt } from 'enquirer';
 
 function myLog(name, ans, desc) {
 	var descStr = desc ? ('- ' + desc) : '';
@@ -93,6 +87,3 @@ r.then(() => {
 	console.log('then in tests'); 
 });
 //r.finally(() => { console.log('finally in tests'); });
-
-```
-

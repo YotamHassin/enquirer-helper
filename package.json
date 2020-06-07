@@ -1,0 +1,35 @@
+{
+  "name": "enquirer-helper",
+  "version": "1.0.1",
+  "description": "Helper For Enquirer, async-await, Stylish CLI prompts that are user-friendly, intuitive and easy to create.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests"
+  },
+  "keywords": [
+    "Helper",
+    "Node",
+    "Node.JS",
+    "NPM",
+    "UI/UX",
+    "UI",
+    "UX",
+    "Interface",
+    "CLI",
+    "Enquirer",
+    "async", "await"
+  ],
+  "author": "Yotam Hassin <YotamHassinWork@gmail.com> (https://www.linkedin.com/in/yotamhassin/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YotamHassin/node-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YotamHassin/node-helper/issues"
+  },
+  "homepage": "https://github.com/YotamHassin/node-helper#readme",
+  "dependencies": {
+    "enquirer": "^2.3.5"
+  }
+}
