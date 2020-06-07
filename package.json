@@ -1,10 +1,11 @@
 {
   "name": "enquirer-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helper For Enquirer, async-await, Stylish CLI prompts that are user-friendly, intuitive and easy to create.",
   "main": "index.js",
   "scripts": {
-    "test": "node tests"
+    "test_l": "node tests",
+    "test": "node test/tests"
   },
   "keywords": [
     "Helper",
