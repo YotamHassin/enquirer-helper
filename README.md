@@ -2,6 +2,11 @@
 # enquirer-helper
 Helper For Enquirer, async-await, Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 
+### [npmjs/enquirer-helper](https://www.npmjs.com/package/enquirer-helper)
+
+### [github/YotamHassin/enquirer-helper](https://github.com/YotamHassin/enquirer-helper)
+
+
 ## Installation 
 ```sh
 cd <my_location>
@@ -70,13 +75,24 @@ async function run() {
 	const t14 = await enquirerHelper.sort('sort some array', ['option 1', 'option 2', 'option 3']);
 	myLog('sort', t14);
 
+	const t15 = await enquirerHelper.runSingle({
+		'single async option': async () => { console.log(await enquirerHelper.input('')); },
+		'single option 2': () => { console.log('print option num 2'); },
+		'single option number 3': () => { console.log('and so on and so forth'); },
+	});
+	myLog('runSingle', t15, 'run action and return a value');
+
 	await enquirerHelper.loopCommand({
-		'option 1': () => { console.log('print option 1'); },
-		'option 2': () => { console.log('print option num 2'); },
-		'option number 3': () => { console.log('and so on and so forth'); },
+		'loop option 1': () => { console.log('print option 1'); },
+		'loop async option 2': async () => { 
+			console.log('print option num 2', 
+			await enquirerHelper.input('this is a loop, wht you say about it?')); 
+		},
+		'loop option number 3': () => { console.log('and so on and so forth'); },
 	});
 	
-	//myLog('loopCommand', t15);
+	//myLog('loopCommand will Not return any usefull value, void action', t16);
+	myLog('loopCommand will Not return any usefull value, void action');
 }
 
 var r = run();
@@ -96,3 +112,6 @@ r.then(() => {
 
 ```
 
+## Join me on the quest to make Computer, Software and Development Simple.
+
+## [Patreon/YotamHassin](https://www.patreon.com/YotamHassin)

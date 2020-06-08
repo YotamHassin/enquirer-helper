@@ -1,6 +1,6 @@
 {
   "name": "enquirer-helper",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Helper For Enquirer, async-await, Stylish CLI prompts that are user-friendly, intuitive and easy to create.",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,8 @@
     "UX",
     "Interface",
     "CLI",
+    "Command Line", 
+    "Command Line Interface", 
     "Enquirer",
     "async", "await"
   ],
@@ -32,5 +34,9 @@
   "homepage": "https://github.com/YotamHassin/enquirer-helper#readme",
   "dependencies": {
     "enquirer": "^2.3.5"
+  },
+  "funding": {
+    "type" : "patreon",
+    "url" : "https://www.patreon.com/YotamHassin"
   }
 }

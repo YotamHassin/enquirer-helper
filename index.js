@@ -14,30 +14,32 @@ const Select = require('./lib/Select');
 const common = require('./lib/common');
 
 module.exports = {
-	prompt, 
+	prompt,
 	// AutoComplete
-	AutoComplete, autoComplete: AutoComplete.autoComplete, 
-	LoopCommand: AutoComplete.LoopCommand, 
-	loopCommand: AutoComplete.loopCommand, 
+	AutoComplete, autoComplete: AutoComplete.autoComplete,
+	LoopCommand: AutoComplete.LoopCommand,
+	loopCommand: AutoComplete.loopCommand,
+	runSingle: AutoComplete.runSingle,
 
 	// Confirm
-	Confirm, yesNo: Confirm.yesNo, trueFalse: Confirm.trueFalse, 
+	Confirm, yesNo: Confirm.yesNo, trueFalse: Confirm.trueFalse,
 
 	// Input
-	Input, input: Input.input, 
+	Input, input: Input.input,
 
 	// Number
-	int: Input.int, float: Input.float, 
-	
+	int: Input.int, float: Input.float,
+
 	// secure 
-	invisible: Input.invisible, password: Input.password, 
+	invisible: Input.invisible, password: Input.password,
 
 	// Select
-	Select, select: Select.select, multi: Select.multi, sort: Select.sort, 
-	selectWithMessage: Select.selectWithMessage, multiWithMessage: Select.multiWithMessage, 
+	Select, select: Select.select, multi: Select.multi, sort: Select.sort,
+	selectWithMessage: Select.selectWithMessage, multiWithMessage: Select.multiWithMessage,
 
 	// common
-	common, Choice: common.Choice, defaultSelectMessage: common.defaultSelectMessage, defaultSelectMultiMessage: common.defaultSelectMultiMessage 
-	
+	common, Choice: common.Choice, createSeparator: common.createSeparator,
+	defaultSelectMessage: common.defaultSelectMessage, defaultSelectMultiMessage: common.defaultSelectMultiMessage
+
 }
 
